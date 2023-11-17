@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'sans';
+    src: url(../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sc';
+    src: url(../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'nixi';
+    src: url(../fonts/Nixie_One/NixieOne-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 375px;
+    background: url(../images/div#header.jpg) cover;
+    
+}
