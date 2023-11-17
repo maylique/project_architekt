@@ -24,8 +24,50 @@ html {
     justify-content: center;
 }
 
+/* section 1 */
+
 section {
     width: 375px;
-    background: url(../images/div#header.jpg) cover;
-    
+    height: 447px;
+    background: url('../images/divheader.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+}
+
+.leer {
+    height: 25%;
+}
+.top1 {
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: -30px;
+    font-family: 'sc';
+    font-size: 1.5rem;
+}
+
+.slim {
+    font-family: 'nixi';
+    font-size: 1.8rem;
+}
+
+.slim h4 {
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+.burger__wrapper {
+    position: fixed;
+    top: 15px;
+    right: 315px;
+    cursor: pointer;
+}
+
+.burger {
+    height: 5px;
+    width: 30px;
+    margin: 5px 0;
+    background-color: white;
 }
