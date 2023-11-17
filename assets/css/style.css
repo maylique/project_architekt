@@ -193,4 +193,34 @@ html {
     font-weight: 200;
 }
 
-/* #02383AB2 */
+.section4 {
+    width: 375px;
+    margin-top: 20px;
+}
+
+.readmore {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.readmore h3{
+    font-family: 'sans';
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+.readmore p {
+    color: grey;
+    }
+
+.readmore a{
+    text-decoration: none;
+    color: cadetblue;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
