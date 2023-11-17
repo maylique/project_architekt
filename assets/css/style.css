@@ -26,7 +26,7 @@ html {
 
 /* section 1 */
 
-section {
+.section1 {
     width: 375px;
     height: 447px;
     background: url('../images/divheader.jpg') center/cover no-repeat;
@@ -71,3 +71,36 @@ section {
     margin: 5px 0;
     background-color: white;
 }
+                    /* Section 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    
+    width: 375px;
+}
+
+.works {
+    font-family: 'sans';
+    font-size: 1.5rem;
+    margin: 10px 5px;
+}
+
+.works p {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.7rem;
+    color: #6A6A6A;
+}
+
+.works a {
+    text-decoration: none;
+    color:#3A4F52 ;
+    border: 1px solid #3A4F52;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    position: absolute;
+    right: 350px;
+    top: 480px;
+
+}
+/* #02383AB2 */
