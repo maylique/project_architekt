@@ -112,6 +112,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 100px;
 }
 
 .rocks {
@@ -165,5 +166,31 @@ html {
     border-radius: 10px; /* Optional: Runde Ecken für das Overlay */
 }
 
+.section3 {
+    width: 375px;
+    height: 950px;
+    background: url('../images/divservices.jpg') center/cover no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'sans';
+}
+
+.s3__bg div {
+    padding: 30px;
+    background-color:rgba(8, 8, 8, 0.3);
+    color: white;
+}
+
+.section3 h3 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+.section3 p {
+    font-size: 0.9rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
 
 /* #02383AB2 */
