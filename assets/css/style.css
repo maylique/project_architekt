@@ -27,7 +27,6 @@ html {
 /* section 1 */
 
 .section1 {
-    width: 375px;
     height: 447px;
     background: url('../images/divheader.jpg') center/cover no-repeat;
     display: flex;
@@ -81,7 +80,6 @@ html {
 .section2 {
     display: flex;
     flex-direction: column;
-    width: 375px;
 }
 
 .works {
@@ -143,7 +141,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Farbe des Textes im Overlay */
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -162,18 +160,17 @@ html {
     left: 5%;
     width: 90%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.3); /* Blaue transparente Farbe */
-    border-radius: 10px; /* Optional: Runde Ecken für das Overlay */
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 10px; 
 }
 
 .section3 {
-    width: 375px;
     height: 950px;
     background: url('../images/divservices.jpg') center/cover no-repeat;
     text-align: center;
     display: flex;
     align-items: center;
-    font-family: 'sans';
+    justify-content: center;
 }
 
 .s3__bg div {
@@ -194,7 +191,6 @@ html {
 }
 
 .section4 {
-    width: 375px;
     margin-top: 20px;
 }
 
@@ -224,3 +220,128 @@ p {
     font-family: Helvetica, sans-serif;
     font-size: 0.9rem;
 }
+
+.section5 {
+    background: url('../images/greychair.png') center/cover no-repeat;  
+    font-family: 'sans';
+    text-align: center;
+    color: white;
+    padding: 4dvh 0;
+    display: flex;
+}
+
+.section5 div {
+    background-color:rgba(8, 8, 8, 0.3);
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.section5 a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 4px;
+    width: 180px;
+    margin-top: 4dvh;
+    color: white;
+}
+
+.section6 {
+    text-align: center;
+    font-family: 'sans';
+}
+
+.section6 h3 {
+    color:#3A4F52;
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+
+.section6 p{
+    color: grey;
+    font-size: 0.8rem;
+    padding: 4px;
+    margin-bottom: 40px;
+}
+
+.testi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: grey;
+    padding: 3px 0;
+    font-size: 0.8rem;
+    margin: 30px;
+}
+
+.testi p {
+    margin: 10px 0;
+}
+
+.testi h4 {
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.contactus {
+    background: url('../images/contactus.png') center/cover no-repeat;
+    height: 50dvh;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus p {
+    margin-bottom: 20px;
+}
+
+.contactus h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.contactdiv {
+    background-color: rgba(8, 8, 8, 0.3);
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.contactdiv input {
+    background: none;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.contactdiv input[type=submit]{
+    width: auto;
+    padding: 5px 10px;
+}
+
+.contactdiv textarea {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin: 15px 0;
+    width: 90%;
+}
+
+footer {
+    background-color: #3A4F52;
+    height: 14dvh;
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
