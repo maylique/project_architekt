@@ -166,7 +166,7 @@ html {
 
 .section3 {
     height: 950px;
-    background: url('../images/divservices.jpg') center/cover no-repeat;
+    background: url('../images/divservices.png') center/cover no-repeat;
     text-align: center;
     display: flex;
     align-items: center;
@@ -192,6 +192,11 @@ html {
 
 .section4 {
     margin-top: 20px;
+}
+
+.readmorees {
+    display: flex;
+    flex-direction: column;
 }
 
 .readmore {
@@ -232,7 +237,7 @@ p {
 
 .section5 div {
     background-color:rgba(8, 8, 8, 0.3);
-    height: 50dvh;
+    height: 40dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -324,6 +329,10 @@ p {
     margin: 10px 0;
 }
 
+::placeholder {
+    color: white;
+}
+
 .contactdiv input[type=submit]{
     width: auto;
     padding: 5px 10px;
@@ -345,3 +354,65 @@ footer {
     padding-left: 10px;
 }
 
+@media only screen and (min-width: 768px) {
+    
+    .section1 {
+        height: 50dvh;
+    }
+
+    .leer {
+        height: 3%;
+    }
+    
+.top1 {
+    margin-top: -120px;
+}
+
+.works {
+    margin: 40px 20px;
+}
+
+.flexjunge {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.rocks img {
+    height: auto;
+    width: auto;
+}
+
+.rocks a {
+    display: none;
+}
+
+.rocks::before {
+    display: none;
+}
+
+.s3__bg div {
+    padding: 30px 70px;
+}
+
+
+.readmorees{
+    display: flex;
+    flex-direction: row;
+}
+
+.readmore img {
+    max-width: 100%;
+    align-self: center;
+}
+
+.testi p{
+    margin: 10px 40px;
+}
+
+.contactus{
+    justify-content: ;
+}
+
+}
